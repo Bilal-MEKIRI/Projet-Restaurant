@@ -97,6 +97,9 @@ footer{
   flex-wrap: wrap;
   justify-content: flex-start;
 }
+a:hover{
+  transform: none;
+}
 #info2 li{
   margin-right: 10px;
   color: rgb(195, 195, 195);
