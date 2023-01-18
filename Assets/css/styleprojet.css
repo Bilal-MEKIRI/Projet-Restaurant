@@ -46,6 +46,19 @@ height: 200px;
     border-radius: 150px;
     
 }
+.trois{
+    display: flex;
+    color: orange;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+.icone, .icone1, .icone2{
+    text-align: center;
+}
+
+
+
+
 /*Section Partners*/
 .Ourpartners h2{
     text-align: center;
@@ -55,13 +68,15 @@ height: 200px;
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 60px;
     
 }
 .Ourpartners p{
-    text-align: center;
     margin-top: 10px;
+    width: 500px;
+    margin-left: 500px;
+    text-align: center;
 }
 /*Fin section partners*/
 
