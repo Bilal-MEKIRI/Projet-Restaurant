@@ -1,0 +1,385 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Fin Reset CSS*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+color: white;
+font-size: 64px;
+}
+p{
+    color: white;
+}
+.callToAction{
+    background: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* HEADER */
+#barreDeNavigation{
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    margin: 0 auto;
+    max-width: 1253px;
+  }
+  
+  #logo{
+    height: 100px;
+    width: 20%;
+    text-align: center;
+  }
+  #logo img{
+    margin: 29px 0;
+  }
+  #logo img:hover{
+    cursor: pointer;
+  }
+  
+  nav{
+    width: 50%;
+  }
+  
+  .barreNavigation{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    transition: 0.1s;
+  }
+  
+  a:hover{
+    color: rgb(251, 220, 21);
+    transform: scale(1.5);
+  }
+  
+  #tel{
+    height: 100px;
+    width: 15%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+  #tel i{
+    margin-right: 15px;
+    transition: 0.1s;
+  }
+  
+  #tel div{
+    margin-right: 15px;
+    transition: 0.1s;
+  }
+  #tel i:hover{
+    cursor: pointer;
+    color: rgb(251, 220, 21);
+    transform: scale(1.06);
+  }
+  #tel div:hover{
+    cursor: pointer;
+    color: rgb(251, 220, 21);
+    transform: scale(1.06);
+  }
+  .header-image{
+    height: 304px;
+    background: url(../images/bg-image-breadcrumbs.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .filariane{
+    display: flex;
+  }
+  .homeAriane, .menuAriane{
+    color: orange;
+  }
+  /* MAIN */
+.download .boutons{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.menu{
+    width: 1150px;
+    height: 530px;
+    background: gray;
+    margin: 100px auto;
+    border: 3px white double;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.menu-1, .menu-2 {
+    max-width: 575px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    color: white;
+}
+.menu p{
+    color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.fast-delivery{
+    height: 304px;
+    background: url(../images/bg-image-breadcrumbs.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trait-orange{
+    width: 25px;
+    height: 3px;
+    background: orange;
+}
+.fast-delivery p{
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.fast-delivery h1{
+    padding-right: 20px;
+}
+.fast-delivery .callToAction{
+    background: none;
+    padding: 10px 20px;
+    border: 2px white solid;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* FOOTER */
+footer{
+
+    background-color: rgb(35, 35, 35);
+  }
+  #footer1{
+    height: 400px;
+    max-width: 1253px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footerInfo{
+    width: 31%;
+    height: 90%;
+  }
+  #info1{
+    border-right: 1px solid rgb(143, 143, 143);
+  }
+  #info1 img{
+    margin-bottom: 30px;
+    width: 100px;
+    height: 50px;
+  }
+  #info1 p{
+    color: rgb(195, 195, 195);
+  }
+  #info1 strong{
+    color: white;
+    font-weight: bold;
+  }
+  #p1{
+    margin-bottom: 30px;
+    line-height: 1;
+  }
+  .p{
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  #info2{
+    border-right: 1px solid rgb(143, 143, 143);
+  }
+  #info2 h2{
+    color: white;
+    font-size: 2.6rem;
+  }
+  #info2 nav{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #info2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  #info2 ul a{
+    margin: 5px 0;
+  }
+  a:hover{
+    transform: none;
+  }
+  #info2 li{
+    margin-right: 10px;
+    color: rgb(195, 195, 195);
+    transition: 0.2s;
+  }
+  #info2 li:hover{
+    cursor: pointer;
+    color: rgb(251, 220, 21);
+    transform: scale(1.1);
+  }
+  
+  #horaires{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #horaires i{
+    color: rgb(251, 220, 21);
+    margin-right: 10px;
+    font-size: 2.2rem;
+  }
+  #horaires p{
+    color: rgb(195, 195, 195);
+  }
+  #info3{
+    width: 33%;
+  }
+  #info3 h2{
+    color: white;
+    font-size: 2.6rem;
+    margin-bottom: 60px;
+  }
+  #info3 h3{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: start;
+  }
+  #info3 form{
+    margin-bottom: 50px;
+  }
+  #info3 form input{
+    height: 50px;
+    width: 50%;
+    border-radius: 30px;
+    border: none;
+  }
+  #info3 form button{
+    height: 50px;
+    width: 30%;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(236, 70, 70);
+    color: white;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  #info3 form button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(237, 44, 44);
+  }
+  #info3 i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: white;
+    transition: 0.2s;
+  }
+  #info3 i:hover{
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: rgb(251, 220, 21);
+  }
+  
+  .footer2{
+    background-color: rgb(49, 49, 49);
+  }
+  
+  #footer2{
+    height: 90px;
+    max-width: 1253px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(49, 49, 49);
+  }
+  
+  #mentionsLegales{
+    color: rgb(195, 195, 195);
+    width: 90%;
+  }
+  
+  #footer2 i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: white;
+    transition: 0.2s;
+  }
+  #footer2 i:hover{
+    cursor: pointer;
+    font-size: 1.7rem;
+    color: rgb(251, 220, 21);
+  }
