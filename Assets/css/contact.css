@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#imageHeader{
+  height: 304px;
+  background-color: rebeccapurple;
+  background-image: url(/Assets/images/bg-image-breadcrumbs.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#imageHeader div{
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+#imageHeader h1{
+  color: white;
+  font-size: 2.5rem;
+}
+
+#imageHeader ul li{
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+#imageHeader ul li a{
+  color: white;
+}
+#imageHeader ul li a:hover{
+  cursor: pointer;
+  color: rgb(251, 220, 21);
+  transform: scale(1.1);
+}
+
+main{
+  margin: 70px 200px;
+  margin-bottom: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sectionContact{
+  width: 485px;
+  height: 250px;
+  padding: 20px;
+  border: 2px solid red;
+}
+#contact1{
+  width: 62%;
+}
+#contact2{
+  width: 28%;
+}
