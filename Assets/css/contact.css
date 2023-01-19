@@ -88,70 +88,21 @@ table {
 
 main{
   margin: 70px 200px;
+  margin-bottom: 300px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.sectionBlog{
+.sectionContact{
   width: 485px;
   height: 250px;
-  margin-bottom: 20px;
   padding: 20px;
-  background-image: url(/Assets/images/blog-grid-1-570x321.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
+  border: 2px solid red;
 }
-.deuxiemeLigne{
-  margin-bottom: 0;
+#contact1{
+  width: 62%;
 }
-
-.sectionBlog p{
-  width: fit-content;
-  height: fit-content;
-  background-color: rgb(238, 209, 19);
-  padding: 10px;
-  margin-bottom: 150px;
-  color: white;
-  font-weight: bold;
-  transition: 0.2s;
+#contact2{
+  width: 28%;
 }
-.sectionBlog p:hover{
-  cursor: pointer;
-  background-color: rgb(255, 223, 16);
-  transform: scale(1.1);
-}
-.sectionBlog h1{
-  color: white;
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.blogInfo{
-  display: flex;
-  align-items: center;
-}
-.author{
-  font-weight: bold;
-  color: white;
-}
-.author strong{
-  color: rgb(238, 209, 19);
-}
-.date{
-  display: flex;
-  align-items: center;
-  margin-left: 45px;
-  color: rgb(238, 209, 19);
-  font-weight: bold;
-}
-.date i{
-  margin-right: 5px;
-  color: white;
-}
-
-
-
-
-
