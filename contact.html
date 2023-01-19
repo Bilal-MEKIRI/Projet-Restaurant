@@ -17,7 +17,7 @@
         <img src="Assets\images\logo-280x60.png" alt="Logo restaurant">
       </div>
       <nav>
-        <ul>
+        <ul class="barreNavigation">
           <li><a href="">HOME</a></li>
           <li><a href="">ABOUT US</a></li>
           <li><a href="">MENU</a></li>
@@ -34,7 +34,7 @@
     <section id="imageHeader">
       <div id="gridBlog">
         <h1>Contacts</h1>
-        <ul>
+        <ul class="barreNavigation">
           <li><a href="">Home</a></li>
           <li><a href="">Contacts</a></li>
         </ul> 
@@ -44,10 +44,65 @@
   <main>
     <div class="sectionContact" id="contact1">
       <h2>Get in Touch</h2>
-      <p>We are available 24/7 by fax, e-mail or by phone. You can also use our qick contact form to ask a question about our services that we offer on a regular basis. We would be pleased to answer your questions.</p>
+      <p id="paragraph">
+        We are available 24/7 by fax, e-mail or by phone. You can also use our qick contact form to ask a question about our services that we offer on a regular basis. We would be pleased to answer your questions.
+      </p>
+      <form action="" class="contactForm">
+        <div class="input">
+          <p>FIRST NAME</p>
+          <input type="text" placeholder="     Your First Name">
+        </div>
+        <div class="input">
+          <p>LAST NAME</p>
+          <input type="text" placeholder="     Your Last Name">
+        </div>
+        <div class="input" >
+          <p>YOUR MESSAGE</p>
+          <input type="text" placeholder="     Write Your Message Here"id="messageInput">
+        </div>
+        <div id="emailSendButton">
+          <div class="input" >
+            <p>EMAIL</p>
+            <input type="text" placeholder="    Enter Your email" id="emailInput">
+          </div>
+          <div class="input">
+            <button id="submitButton" type="submit">SEND MESSAGE</button>
+          </div>
+        </div>
+        </div>
+      </form>
     </div>
     <div class="sectionContact" id="contact2">
-
+      <div class="contactInfo" id="followUs">
+        <h1 class="infoTitle">FOLLOW US</h1>
+        <div class="infoContent">
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google-plus-g"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="contactInfo" id="phone">
+        <h1 class="infoTitle">PHONE</h1>
+        <div class="infoContent">
+          <i class="fa-solid fa-phone"></i>
+          <P>1-800-1234-567</P>
+        </div>
+      </div>
+      <div class="contactInfo" id="address">
+        <h1 class="infoTitle">ADDRESS</h1>
+        <div class="infoContent">
+          <i class="fa-solid fa-location-dot"></i>
+          <P>4578 Marmore St. San Francisco D0489GR</P>
+        </div>
+      </div>
+      <div class="contactInfo" id="openHours">
+        <h1 class="infoTitle">OPENING HOURS</h1>
+        <div class="infoContent">
+          <i class="fa-regular fa-clock"></i>
+          <P>9:00am-7:00pm</P>
+        </div>
+      </div>
     </div>
   </main>
   <footer>

@@ -96,13 +96,116 @@ main{
 
 .sectionContact{
   width: 485px;
-  height: 250px;
   padding: 20px;
-  border: 2px solid red;
 }
 #contact1{
   width: 62%;
 }
+#contact1 h2{
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
+#paragraph{
+  text-align: center;
+  color: rgb(150, 150, 150);
+}
 #contact2{
   width: 28%;
 }
+.contactForm{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contactForm p{
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.input{
+  width: 45%;
+}
+.input p{
+  margin-left: 25px;
+  color: rgb(150, 150, 150);
+}
+input{
+  width: 300px;
+  height: 50px;
+  border-radius: 40px;
+  border: none;
+  background-color:  rgb(230, 230, 230);
+}
+#messageInput{
+  width: 665px;
+  height: 80px;
+}
+#submitButton{
+  width: 300px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 40px;
+  background-color: rgb(251, 220, 21);
+  transition: 0.2s;
+}
+#submitButton:hover{
+  cursor: pointer;
+  background-color: rgb(255, 221, 0);
+  transform: scale(1.05);
+}
+#emailInput{
+  width: 300px;
+  height: 50px;
+}
+#emailSendButton{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contactInfo{
+  width: 100%;
+  height: 70px;
+  margin-bottom: 65px;
+}
+.infoTitle{
+  border-bottom: 2px solid rgb(255, 221, 0);
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.infoContent{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.infoContent i{
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: rgb(150, 150, 150);
+  transition: 0.2s;
+}
+.infoContent i:hover{
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: rgb(251, 220, 21);
+}
+
+.fa-phone{
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: black;
+  transition: 0.2s;
+}
+.fa-phone:hover{
+  cursor: pointer;
+  font-size: 1.54rem;
+  color: rgb(251, 220, 21);
+}
+
+
