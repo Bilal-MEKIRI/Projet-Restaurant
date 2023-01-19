@@ -189,6 +189,7 @@ li{
 .fast-delivery{
     height: 304px;
     background: url(../images/bg-image-breadcrumbs.jpg);
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -382,4 +383,7 @@ footer{
     cursor: pointer;
     font-size: 1.7rem;
     color: rgb(251, 220, 21);
+  }
+  .footer2 p{
+    color: black;
   }
