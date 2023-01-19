@@ -48,7 +48,9 @@ table {
 }
 /* Fin Reset CSS*/
 
-
+a{
+  text-decoration: none;
+}
 
 
 /* HEADER */
@@ -399,7 +401,6 @@ footer{
     color: rgb(195, 195, 195);
     width: 90%;
   }
-  
   #footer2 i{
     font-size: 1.5rem;
     margin-right: 10px;
