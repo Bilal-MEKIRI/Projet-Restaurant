@@ -47,6 +47,102 @@ table {
 	border-spacing: 0;
 }
 /* Fin Reset CSS*/
+
+
+
+
+/* HEADER */
+#barreDeNavigation{
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  margin: 0 auto;
+  max-width: 1253px;
+}
+
+#logo{
+  height: 100px;
+  width: 20%;
+  text-align: center;
+}
+#logo img{
+  margin: 29px 0;
+}
+#logo img:hover{
+  cursor: pointer;
+}
+
+nav{
+  width: 50%;
+}
+
+.barreNavigation{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation{
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  transition: 0.1s;
+}
+
+.navigation:hover{
+  color: orange;
+  transform: scale(1.5);
+}
+
+#tel{
+  height: 100px;
+  width: 15%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#tel i{
+  margin-right: 15px;
+  transition: 0.1s;
+}
+
+#tel div{
+  margin-right: 15px;
+  transition: 0.1s;
+}
+#tel i:hover{
+  cursor: pointer;
+  color: orange;
+  transform: scale(1.06);
+}
+#tel div:hover{
+  cursor: pointer;
+  color: orange;
+  transform: scale(1.06);
+}
+.header-image{
+  height: 304px;
+  background: url(../images/bg-image-breadcrumbs.jpg);
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.filariane{
+  display: flex;
+}
+.homeAriane, .menuAriane{
+  color: orange;
+}
+
+
+
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -57,103 +153,30 @@ font-size: 64px;
 p{
     color: white;
 }
-.callToAction{
-    background: orange;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
+.download{
+  width: 250px;
+  margin: 80px auto;
 }
-/* HEADER */
-#barreDeNavigation{
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px;
-    margin: 0 auto;
-    max-width: 1253px;
-  }
-  
-  #logo{
-    height: 100px;
-    width: 20%;
-    text-align: center;
-  }
-  #logo img{
-    margin: 29px 0;
-  }
-  #logo img:hover{
-    cursor: pointer;
-  }
-  
-  nav{
-    width: 50%;
-  }
-  
-  .barreNavigation{
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  a{
-    margin-right: 30px;
-    text-decoration: none;
-    color: black;
-    transition: 0.1s;
-  }
-  
-  a:hover{
-    color: rgb(251, 220, 21);
-    transform: scale(1.5);
-  }
-  
-  #tel{
-    height: 100px;
-    width: 15%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-  }
-  #tel i{
-    margin-right: 15px;
-    transition: 0.1s;
-  }
-  
-  #tel div{
-    margin-right: 15px;
-    transition: 0.1s;
-  }
-  #tel i:hover{
-    cursor: pointer;
-    color: rgb(251, 220, 21);
-    transform: scale(1.06);
-  }
-  #tel div:hover{
-    cursor: pointer;
-    color: rgb(251, 220, 21);
-    transform: scale(1.06);
-  }
-  .header-image{
-    height: 304px;
-    background: url(../images/bg-image-breadcrumbs.jpg);
-    text-align: center;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .filariane{
-    display: flex;
-  }
-  .homeAriane, .menuAriane{
-    color: orange;
-  }
+.callToAction{
+  background: rgb(255, 230, 0);
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.2s;
+}
+.callToAction:hover{
+  background: rgb(255, 204, 0);
+  transform: scale(1.1);
+  color: white;
+}
+
+
+
+
+
+
   /* MAIN */
 .download .boutons{
     text-align: center;
@@ -206,6 +229,7 @@ li{
 .fast-delivery h1{
     padding-right: 20px;
 }
+ 
 .fast-delivery .callToAction{
     background: none;
     padding: 10px 20px;
@@ -216,6 +240,8 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
+
+
 /* FOOTER */
 footer{
 
