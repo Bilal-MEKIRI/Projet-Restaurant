@@ -128,7 +128,7 @@ li{
     grid-column-gap:50px;
     grid-row-gap: 0px
 }
-.delivery, .food, .chefs, .dishes{
+.delivery, .food, .chiefs, .dishes{
 display: flex;
 flex-direction: column;
 align-items: center;
