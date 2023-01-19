@@ -39,7 +39,7 @@ a{
 }
 
 a:hover{
-  color: rgb(251, 220, 21);
+  color: orange;
   transform: scale(1.5);
 }
 
@@ -61,12 +61,12 @@ a:hover{
 }
 #tel i:hover{
   cursor: pointer;
-  color: rgb(251, 220, 21);
+  color: orange;
   transform: scale(1.06);
 }
 #tel div:hover{
   cursor: pointer;
-  color: rgb(251, 220, 21);
+  color: orange;
   transform: scale(1.06);
 }
 
@@ -106,7 +106,7 @@ a:hover{
 #chefName{
   width: fit-content;
   font-size: 1.5rem;
-  color: rgb(255, 163, 65);
+  color: orange;
 }
 
 
@@ -120,6 +120,6 @@ a:hover{
 .fa-phone:hover{
   cursor: pointer;
   font-size: 1.54rem;
-  color: rgb(251, 220, 21);
+  color: orange;
 }
 
