@@ -1,0 +1,91 @@
+/*Première section*/
+.freedelivery{
+background-image: url(../images/parallax-05.jpg);
+height: 200px;
+}
+.freedelivery{
+    text-align: center;
+}
+.freedelivery p{
+    color: aliceblue;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+}
+.freedelivery .prix{
+    color: orange;
+    font-size: 40px;
+}
+.freedelivery .t{
+    color: aliceblue;
+    font-size: 15px;
+}
+.freedelivery .calltoaction{
+    font-size: 10px;
+    color: aliceblue;
+    padding: 11px 21px;
+    background-color: #f14250;
+    border-radius: 20px;
+}
+.freedelivery .calltoaction:hover{
+    filter: brightness(90%);
+    color: rgb(251, 243, 244);
+}
+/*Fin première section*/
+
+/*Section chefs*/
+.ourchefs .chefs{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.ourchefs h2{
+    text-align: center;
+}
+.ourchefs img{
+    border-radius: 150px;
+    
+}
+.trois{
+    display: flex;
+    color: orange;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+.icone, .icone1, .icone2{
+    text-align: center;
+}
+
+
+
+
+/*Section Partners*/
+.Ourpartners h2{
+    text-align: center;
+    margin-top: 70px;
+}
+.Ourpartners .partners{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    
+}
+.Ourpartners p{
+    margin-top: 10px;
+    width: 500px;
+    margin-left: 500px;
+    text-align: center;
+}
+/*Fin section partners*/
+
+/*Section images*/
+.images{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin-top: 80px;
+}
