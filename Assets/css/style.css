@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* FIN Reset*/
+h1{
+    font-size:64px ;
+    font-weight: bold;
+}
+h2{
+    font-size: 32px;
+    padding-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+p{
+    font-size: 16px;
+    line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.callToAction{
+    background: red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* MAIN */
+
+/* 1ere section */
+.histoire{
+    background: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.histoire-img{
+    max-width: 50%;
+    width: 100%;
+    background: lightgray;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.histoire-image{
+    width: 789px;
+    height: 833px;
+}
+.histoire-text{
+    max-width: calc(50% - 40px);
+    width: 100%;
+    padding: 70px 20px 0;
+}
+.histoire-text p{
+    color: gray;
+    padding-bottom: 30px;
+}
+.histoire-chiffres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+}
+.histoire-chiffres h1{
+    color: orange;
+}
+
+/* 2e section */
+.reassurance{
+    width: 1150px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap:50px;
+    grid-row-gap: 0px
+}
+.delivery, .food, .chiefs, .dishes{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding-top: 70px;
+    
+}
+.trait-orange{
+    width: 20px;
+    height: 2px;
+    background: orange;
+    margin: 0 auto;
+}
+.reassurance p {
+    padding-top: 15px;
+}
+.reassurance h3{
+    padding: 15px;
+}
+
+/* 3e section */
+
+.menu{
+    width: 1150px;
+    height: 530px;
+    background: gray;
+    margin: 100px auto;
+    border: 3px white double;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.menu-1, .menu-2 {
+    max-width: 575px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    color: white;
+}
+.menu p{
+    color: lightgray;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
