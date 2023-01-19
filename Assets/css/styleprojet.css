@@ -33,28 +33,28 @@ height: 200px;
 /*Fin première section*/
 
 /*Section chefs*/
-.ourchefs .chefs{
-    max-width: 1000px;
-    margin: 0 auto;
+
+.bonjour{
     display: flex;
     justify-content: space-around;
 }
+.bonjour p{
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+.bonjour img{
+    text-align: center;
+}
 .ourchefs h2{
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .ourchefs img{
     border-radius: 150px;
-    
 }
-.trois{
-    display: flex;
-    color: orange;
-    font-weight: bold;
-    justify-content: space-evenly;
-}
-.icone, .icone1, .icone2{
-    text-align: center;
-}
+
 
 
 
@@ -62,7 +62,7 @@ height: 200px;
 /*Section Partners*/
 .Ourpartners h2{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 200px;
 }
 .Ourpartners .partners{
     max-width: 1000px;
@@ -74,8 +74,6 @@ height: 200px;
 }
 .Ourpartners p{
     margin-top: 10px;
-    width: 500px;
-    margin-left: 500px;
     text-align: center;
 }
 /*Fin section partners*/
@@ -88,4 +86,41 @@ height: 200px;
     justify-content: space-around;
     height: 200px;
     margin-top: 80px;
+}
+
+/*Section  Testimonials*/
+
+.OurTestimonials h2{
+    margin-top: 200px;
+}
+.OurTestimonials h2{
+    text-align: center;
+}
+.The img{
+    border-radius: 150px;
+}
+.BestB{
+    display: flex;
+}
+.The{
+    display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding-top: 70px;
+}
+.The p{
+    padding: 10px 50px 20px;
+}
+.BestB h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.BestB p{
+    font-size: 15px;
+}
+.BestB .name{
+    color: gray;
+    font-size: 10px;
 }

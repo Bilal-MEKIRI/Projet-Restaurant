@@ -1,0 +1,58 @@
+.Noschefs{
+    background-image: url(../images/bg-image-breadcrumbs.jpg);
+    text-align: center;
+    height: 304px;
+    color: aliceblue;
+}
+.Noschefs p{
+    color: orange;
+}
+.Team{
+    margin-top: 50px;
+}
+.Team h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Team p{
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.statut{
+    text-align: center;
+    margin-bottom: 20px;
+    color: gray;
+    font-style: italic;
+}
+
+.chefs, .trois{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Orni img{
+    border-radius: 150px;
+}
+
+.Biltam img{
+    border-radius: 150px;
+}
+
+.Rabina img{
+    border-radius: 150px;
+}
+
+.trois{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.trois p{
+    display: flex;
+    justify-content: space-around;
+}
+.icone{
+    display: flex;
+    justify-content: space-around;
+}
