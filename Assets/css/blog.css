@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+#imageHeader{
+  height: 304px;
+  background-color: rebeccapurple;
+  background-image: url(/Assets/images/bg-image-breadcrumbs.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+#imageHeader div{
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 100px;
+}
+
+#imageHeader h1{
+  color: white;
+  font-size: 2.5rem;
+}
+
+#imageHeader ul li{
+  margin-left: 20px;
+  font-size: 1.2rem;
+}
+#imageHeader ul li a{
+  color: white;
+}
+#imageHeader ul li a:hover{
+  cursor: pointer;
+  color: rgb(251, 220, 21);
+  transform: scale(1.1);
+}
+
+main{
+  margin: 70px 200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.sectionBlog{
+  width: 485px;
+  height: 250px;
+  background-color: green;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url(/Assets/images/blog-grid-1-570x321.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.deuxiemeLigne{
+  margin-bottom: 0;
+}
+
+.sectionBlog p{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgb(238, 209, 19);
+  padding: 10px;
+  margin-bottom: 150px;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.sectionBlog p:hover{
+  cursor: pointer;
+  background-color: rgb(255, 223, 16);
+  transform: scale(1.1);
+}
+.sectionBlog h1{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.blogInfo{
+  display: flex;
+  align-items: center;
+}
+.author{
+  font-weight: bold;
+  color: white;
+}
+.author strong{
+  color: rgb(238, 209, 19);
+}
+.date{
+  display: flex;
+  align-items: center;
+  margin-left: 45px;
+  color: rgb(238, 209, 19);
+  font-weight: bold;
+}
+.date i{
+  margin-right: 5px;
+  color: white;
+}
+
+
+
+
+
