@@ -3,6 +3,10 @@
     text-align: center;
     height: 304px;
     color: aliceblue;
+    margin-top: 50px;
+}
+.Noschefs h2{
+    padding-top: 50px;
 }
 .Noschefs p{
     color: orange;
