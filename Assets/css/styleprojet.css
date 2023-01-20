@@ -1,36 +1,86 @@
 /*Première section*/
 .freedelivery{
-background-image: url(../images/parallax-05.jpg);
+    background-image: url(/Assets/images/parallax-06.jpg);
+background-position: center;
 height: 200px;
 }
 .freedelivery{
     text-align: center;
+    padding: 30px;
+    height: 572px;
 }
-.freedelivery p{
+.freedelivery #p1{
     color: aliceblue;
     font-family: 'Shadows Into Light', cursive;
-    font-size: 20px;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
 }
-.freedelivery .prix{
+.freedelivery #p2{
+    color: aliceblue;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 5.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+#sectionPrix{
+    display: flex;
+    align-items: baseline;
+    text-align: center;
+    width: 242px;
+    margin: 5px auto;
+}
+.prix{
+    display: flex;
+    align-items: flex-start;
+}
+.small{
+    font-size: 2.5rem;
+    font-weight: bold;
     color: orange;
-    font-size: 40px;
+    margin: 0;
+    padding: 0;
 }
-.freedelivery .t{
-    color: aliceblue;
-    font-size: 15px;
+#large{
+    font-size: 5rem;
+    font-weight: bold;
+    color: orange;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -20px;
 }
-.freedelivery .calltoaction{
-    font-size: 10px;
-    color: aliceblue;
-    padding: 11px 21px;
-    background-color: #f14250;
-    border-radius: 20px;
+#menu{
+    margin-left: 20px;
 }
-.freedelivery .calltoaction:hover{
-    filter: brightness(90%);
-    color: rgb(251, 243, 244);
+#menu li{
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
+
+.bouton{
+    margin-top: 20px;
+}
+
+.button{
+    height: 70px;
+    width: 300px;
+    margin-left: 10px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(236, 70, 70);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgb(237, 44, 44);
+  }
 /*Fin première section*/
+
 
 /*Section chefs*/
 
@@ -38,22 +88,52 @@ height: 200px;
     display: flex;
     justify-content: space-around;
 }
-.bonjour p{
-    text-align: center;
-    color: orange;
-    font-weight: bold;
-}
-.bonjour img{
-    text-align: center;
+.ourchefs{
+    margin-top: 60px;
 }
 .ourchefs h2{
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .ourchefs img{
     border-radius: 150px;
+    margin-bottom: 15px;
 }
+.chefName{
+    color: orange;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.role{
+    color: rgb(195, 195, 195);
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.trois{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionChef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone{
+    height: 50px;
+}
+.icone i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: orange;
+    transition: 0.2s;
+  }
+.icone i:hover{
+    cursor: pointer;
+    font-size: 1.7rem;
+    
+  }
+
 
 
 
@@ -80,11 +160,7 @@ height: 200px;
 
 /*Section images*/
 .images{
-    max-width: 1000px;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-    height: 200px;
     margin-top: 80px;
 }
 
@@ -123,4 +199,15 @@ padding-top: 70px;
 .BestB .name{
     color: gray;
     font-size: 10px;
+}
+.images img{
+    width: calc(100% / 4);
+    transition: 0.3s;
+    transition: 0.5s cubic-bezier(0,3,0.4,1);
+    z-index: 1;
+}
+.images img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    z-index: 2;
 }
