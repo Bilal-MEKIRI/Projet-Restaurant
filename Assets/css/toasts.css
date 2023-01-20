@@ -246,8 +246,7 @@ li{
 
 /* FOOTER */
 footer{
-
-    background-color: rgb(35, 35, 35);
+  background-color: rgb(35, 35, 35);
   }
   #footer1{
     height: 400px;
@@ -313,7 +312,7 @@ footer{
   }
   #info2 li:hover{
     cursor: pointer;
-    color: rgb(251, 220, 21);
+    color: orange;
     transform: scale(1.1);
   }
   
@@ -324,7 +323,7 @@ footer{
     align-items: center;
   }
   #horaires i{
-    color: rgb(251, 220, 21);
+    color: orange;
     margin-right: 10px;
     font-size: 2.2rem;
   }
@@ -379,7 +378,7 @@ footer{
   #info3 i:hover{
     cursor: pointer;
     font-size: 1.7rem;
-    color: rgb(251, 220, 21);
+    color: orange;
   }
   
   .footer2{
@@ -398,9 +397,20 @@ footer{
   }
   
   #mentionsLegales{
-    color: rgb(195, 195, 195);
     width: 90%;
+    
   }
+  #mentionsLegales p{
+    color: black
+  }
+  #mentionsLegales p:hover{
+    cursor: pointer;
+    color: orange;
+  }
+
+
+
+
   #footer2 i{
     font-size: 1.5rem;
     margin-right: 10px;
@@ -410,5 +420,17 @@ footer{
   #footer2 i:hover{
     cursor: pointer;
     font-size: 1.7rem;
-    color: rgb(251, 220, 21);
+    color: orange;
+  }
+
+  .fa-phone{
+    font-size: 1.5rem;
+    margin-right: 20px;
+    color: black;
+    transition: 0.2s;
+  }
+  .fa-phone:hover{
+    cursor: pointer;
+    font-size: 1.54rem;
+    color: orange;
   }
