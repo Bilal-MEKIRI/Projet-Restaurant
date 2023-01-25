@@ -55,9 +55,9 @@ table {
 
 .header-image{
   height: 304px;
-  background: url(../images/bg-image-breadcrumbs.jpg);
+  background: url(../images-resto/contact-header.jpg);
   text-align: center;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -134,6 +134,7 @@ input{
   border-radius: 40px;
   border: none;
   background-color:  rgb(230, 230, 230);
+  padding-left: 25px;
 }
 #messageInput{
   width: 665px;

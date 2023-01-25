@@ -1,8 +1,10 @@
 
 /*Première section*/
 .freedelivery{
-    background-image: url(/Assets/images/parallax-06.jpg);
+    background-image: url(/Assets/images-resto/pizzaDelivery.jpg);
     background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
     height: 200px;
 }
 .freedelivery{

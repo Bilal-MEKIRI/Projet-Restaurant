@@ -126,9 +126,9 @@ nav{
 }
 .header-image{
   height: 304px;
-  background: url(../images/bg-image-breadcrumbs.jpg);
+  background: url(../images-resto/toast-header.jpg);
   text-align: center;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -222,7 +222,7 @@ li{
 }
 .fast-delivery{
     height: 304px;
-    background: url(../images/bg-image-breadcrumbs.jpg);
+    background: url(../images-resto/pizzaGuy.jpg);
     background-position: center;
     display: flex;
     justify-content: center;

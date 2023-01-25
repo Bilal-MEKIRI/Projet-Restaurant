@@ -55,9 +55,9 @@ table {
 
 .header-image{
   height: 304px;
-  background: url(../images/bg-image-breadcrumbs.jpg);
+  background: url(../images-resto/blog-header.jpg);
   text-align: center;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -89,12 +89,42 @@ main{
   flex-wrap: wrap;
 }
 
-.sectionBlog{
+#blog1{
   width: 485px;
   height: 250px;
   margin-bottom: 20px;
   padding: 20px;
-  background-image: url(/Assets/images/blog-grid-1-570x321.jpg);
+  background-image: url(/Assets/images-resto/blogSandwich.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#blog2{
+  width: 485px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url(/Assets/images-resto/blogTurkeyBurger.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#blog3{
+  width: 485px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url(/Assets/images-resto/blogAmericanBurgers.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#blog4{
+  width: 485px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-image: url(/Assets/images-resto/blogPizza.jpg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
