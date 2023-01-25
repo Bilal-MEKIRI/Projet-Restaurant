@@ -51,39 +51,35 @@ table {
 
 
 
-#imageHeader{
+
+
+.header-image{
   height: 304px;
-  background-color: rebeccapurple;
-  background-image: url(/Assets/images/bg-image-breadcrumbs.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-#imageHeader div{
-  margin: 0 auto;
-  position: relative;
+  background: url(../images/bg-image-breadcrumbs.jpg);
   text-align: center;
-  top: 100px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-#imageHeader h1{
+.header-image h1{
   color: white;
-  font-size: 2.5rem;
+  font-size: 64px;
 }
-
-#imageHeader ul li{
-  margin-left: 20px;
-  font-size: 1.2rem;
+.header-image p{
+  font-size: 1.1rem;
+  font-weight: bold;
 }
-#imageHeader ul li a{
+.header-image #pageName{
   color: white;
 }
-#imageHeader ul li a:hover{
-  cursor: pointer;
-  color: rgb(251, 220, 21);
-  transform: scale(1.1);
+.filariane{
+  display: flex;
+}
+.homeAriane, .menuAriane{
+  color: orange;
 }
 
 main{
@@ -110,7 +106,7 @@ main{
 .sectionBlog p{
   width: fit-content;
   height: fit-content;
-  background-color: rgb(238, 209, 19);
+  background-color: orange;
   padding: 10px;
   margin-bottom: 150px;
   color: white;
@@ -119,7 +115,7 @@ main{
 }
 .sectionBlog p:hover{
   cursor: pointer;
-  background-color: rgb(255, 223, 16);
+  background-color: orange;
   transform: scale(1.1);
 }
 .sectionBlog h1{
@@ -137,13 +133,13 @@ main{
   color: white;
 }
 .author strong{
-  color: rgb(238, 209, 19);
+  color: orange;
 }
 .date{
   display: flex;
   align-items: center;
   margin-left: 45px;
-  color: rgb(238, 209, 19);
+  color: orange;
   font-weight: bold;
 }
 .date i{
@@ -161,9 +157,8 @@ main{
 .fa-phone:hover{
   cursor: pointer;
   font-size: 1.54rem;
-  color: rgb(251, 220, 21);
+  color: orange;
 }
-
 
 
 

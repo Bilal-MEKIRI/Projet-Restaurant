@@ -51,39 +51,35 @@ table {
 
 
 
-#imageHeader{
+
+
+.header-image{
   height: 304px;
-  background-color: rebeccapurple;
-  background-image: url(/Assets/images/bg-image-breadcrumbs.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-
-#imageHeader div{
-  margin: 0 auto;
-  position: relative;
+  background: url(../images/bg-image-breadcrumbs.jpg);
   text-align: center;
-  top: 100px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-#imageHeader h1{
+.header-image h1{
   color: white;
-  font-size: 2.5rem;
+  font-size: 64px;
 }
-
-#imageHeader ul li{
-  margin-left: 20px;
-  font-size: 1.2rem;
+.header-image p{
+  font-size: 1.1rem;
+  font-weight: bold;
 }
-#imageHeader ul li a{
+.header-image #pageName{
   color: white;
 }
-#imageHeader ul li a:hover{
-  cursor: pointer;
-  color: rgb(251, 220, 21);
-  transform: scale(1.1);
+.filariane{
+  display: flex;
+}
+.homeAriane, .menuAriane{
+  color: orange;
 }
 
 main{

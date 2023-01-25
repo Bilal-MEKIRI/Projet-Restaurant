@@ -46,65 +46,93 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.Noschefs{
-    background-image: url(../images/bg-image-breadcrumbs.jpg);
-    text-align: center;
+
+
+
+
+  .header-image{
     height: 304px;
-    color: aliceblue;
-    margin-top: 50px;
-}
-.Noschefs h2{
-    padding-top: 50px;
-}
-.Noschefs p{
-    color: orange;
-}
-.Team{
-    margin-top: 50px;
-}
-.Team h2{
+    background: url(../images/bg-image-breadcrumbs.jpg);
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-image h1{
+    color: white;
+    font-size: 64px;
+  }
+  .header-image p{
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  .header-image #pageName{
+    color: white;
+  }
+  .filariane{
+    display: flex;
+  }
+  .homeAriane, .menuAriane{
+    color: orange;
+  }
+
+  
+
+.ourchefs{
+    margin-top: 60px;
 }
-.Team p{
+.ourchefs h2{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 2.2rem;
+}
+.ourchefs img{
+    border-radius: 150px;
+    margin-bottom: 15px;
+}
+.chefName{
     color: orange;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
-.statut{
-    text-align: center;
-    margin-bottom: 20px;
-    color: gray;
+.role{
+    color: rgb(195, 195, 195);
     font-style: italic;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 2;
 }
-
-.chefs, .trois{
-    display: flex;
-    justify-content: space-around;
-}
-
-.Orni img{
-    border-radius: 150px;
-}
-
-.Biltam img{
-    border-radius: 150px;
-}
-
-.Rabina img{
-    border-radius: 150px;
-}
-
 .trois{
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.trois p{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
+.sectionChef{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .icone{
-    display: flex;
-    justify-content: space-around;
+    height: 50px;
 }
+.icone i{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    color: orange;
+    transition: 0.2s;
+  }
+.icone i:hover{
+    cursor: pointer;
+    font-size: 1.7rem;
+  }
+
+  #teamFooter{
+    margin-top: 100px;
+  }
+
+
+
+
