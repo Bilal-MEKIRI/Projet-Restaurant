@@ -123,3 +123,100 @@ a:hover{
   color: orange;
 }
 
+@media(max-width: 750px){
+
+  header{
+    width: 100%;
+  }
+  #tel{
+    display: none;
+  }
+  #imageHeader{
+    width: 100%;
+    background-image: url(/Assets/images-resto/image-header-version-mobile.jpg);
+  }
+  .histoire{
+    clip-path: polygon(0 0, 100% 0, 100% 94%, 49% 100%, 0 93%);
+    text-align: center;
+}
+  #histoire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .histoire-image {
+    width: 100%;
+    height: 600px;margin: 0 auto;
+}
+.histoire-chiffres{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#button{
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.reassurance{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+.menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  padding-top: 40px;
+}
+.commande-en-ligne{
+  width: 100%;
+  text-align: center;
+}
+.freedelivery{
+  width: 100%;
+  text-align: center;
+}
+.ourchefs{
+  width: 100%;
+  text-align: center;
+}
+.trois{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sectionChef{
+  margin-bottom: 40px;
+}
+.Ourpartners{
+  width: 100%;
+  text-align: center;
+}
+.Ourpartners h2{margin-top: 130px;
+}
+.Ourpartners p{
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+.partners{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.partners img{
+  margin-bottom: 100px;
+}
+.images{
+  display: none;
+}
+#OurTestimonials{
+  display: none;
+}
+
+
+
+}
