@@ -7,6 +7,20 @@
   margin: 0 auto;
   max-width: 1253px;
 }
+#barreDeNavigationResponsive{
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10 50px;
+  margin: 0 auto;
+  width: 100%;
+  display: none;
+}
+.fa-bars{
+  font-size: 1.5rem;
+  color: rgb(67, 67, 67);
+}
 
 #logo{
   height: 100px;
@@ -217,6 +231,23 @@ a:hover{
   display: none;
 }
 
+#barreDeNavigationResponsive{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  margin-left: 10px;
+}
+.fa-bars{
+  margin-right: 10px;
+}
+.fa-bars:hover{
+  cursor: pointer;
+}
+#barreDeNavigation{
+  display: none;
+}
 
 
 }
