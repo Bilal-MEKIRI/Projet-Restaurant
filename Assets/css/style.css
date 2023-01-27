@@ -17,13 +17,13 @@ p{
 #button{
     height: 50px;
     width: 170px;
-    margin-left: 10px;
     border-radius: 40px;
     border: none;
     background-color: rgb(236, 70, 70);
     color: white;
     font-size: 0.9rem;
     font-weight: bold;
+    transition: 0.2s;
 }
 #button:hover{
     cursor: pointer;
@@ -139,5 +139,8 @@ li{
         width: 100%;
         height: fit-content;
         padding-top: 40px;
+      }
+      #button{
+        display: block;
       }
 }

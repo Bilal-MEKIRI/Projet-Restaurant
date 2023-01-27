@@ -118,6 +118,7 @@ a:hover{
   color: white;
   font-size: 0.7rem;
   font-weight: bold;
+  transition: 0.2s;
 }
 #info3 form button:hover{
   cursor: pointer;
