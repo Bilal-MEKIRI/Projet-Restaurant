@@ -87,7 +87,6 @@ main{
   margin-bottom: 300px;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .sectionContact{
@@ -203,6 +202,56 @@ input{
   cursor: pointer;
   font-size: 1.54rem;
   color: rgb(251, 220, 21);
+}
+
+@media(max-width: 750px){
+
+  main{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .contactForm{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .sectionContact{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #contact1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input{
+    width: 100%;
+  }
+  .input input{
+    width: 100%;
+  }
+  #emailSendButton{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #emailSendButton .input{
+    width: 100%;
+  }
+  #emailSendButton button{
+    margin: 20px auto;
+  }
+  #emailSendButton .input input{
+    width: 100%;
+  }
+  #messageInput{
+    width: 100%;
+  }
+  #contact2 {
+    width: 57%;
+    margin-top: 112px;
+  }
 }
 
 
