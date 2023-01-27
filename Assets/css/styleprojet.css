@@ -223,3 +223,52 @@
     transform: scale(1.2);
     z-index: 2;
 }
+
+@media(max-width: 750px){
+    
+    .commande-en-ligne{
+        width: 100%;
+        text-align: center;
+      }
+      .freedelivery{
+        width: 100%;
+        text-align: center;
+      }
+      .ourchefs{
+        width: 100%;
+        text-align: center;
+      }
+      .trois{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sectionChef{
+        margin-bottom: 40px;
+      }
+      .Ourpartners{
+        width: 100%;
+        text-align: center;
+      }
+      .Ourpartners h2{margin-top: 130px;
+      }
+      .Ourpartners p{
+        width: 75%;
+        text-align: center;
+        margin: 0 auto;
+      }
+      .partners{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .partners img{
+        margin-bottom: 100px;
+      }
+      .images{
+        display: none;
+      }
+      #OurTestimonials{
+        display: none;
+      }
+}
